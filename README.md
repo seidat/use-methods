@@ -1,3 +1,13 @@
+# Notes for Seidat devs:
+
+Branches:
+- `master` mirrors `pelotom/master`.
+- `seidat` is the branch we install in the app.
+- Other branches for features, so we can open pull-requests to pelotom/master as well.
+- To take a new version into use, run `npm run build` on the `seidat` branch, commit, and run `meteor npm i seidat@commit` in the app.
+
+---
+
 # `use-methods` [![Build Status](https://travis-ci.com/pelotom/use-methods.svg?branch=master)](https://travis-ci.com/pelotom/use-methods)
 
 <img src="https://i.imgur.com/2GzRGBU.png" width="350">
